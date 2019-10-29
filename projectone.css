@@ -24,24 +24,110 @@
 
 .container {
   background-color: #f2f2f2;
+  text-align: center;
 }
 
-h1 {
-  color: #333;
-  font-family: 'calibre-semibold-webfont', sans-serif;
-  font-size: 80px;
-
-}
-#myTopnav { 
-    display:inline;
-    padding: 15px;
+.topNav { 
+  text-align: right;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
 
 }
 
-#myTopnav a{
+.topNav a{
   text-decoration:none; 
   color: #333;
   font-family: 'Roboto-light', sans-serif;
   font-size: 20px;
+  padding: 10px;
+  
+
+}
+
+  h1 {
+    color: #333;
+    font-family: 'calibre-semibold-webfont', sans-serif;
+    font-size: 80px;
+    padding-top: 50px;
+  
 
   }
+
+
+  h2 {
+      color: #333;
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 20px;
+      padding-top: 50px;
+      
+
+  }
+
+
+  .menu {
+    grid-area: menu;
+
+  }
+
+  .title {
+    grid-area: title;
+  }
+
+
+  .projects {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 50px 100px repeat(1fr) 50px;
+    grid-template-areas:
+    "menu menu menu menu"
+    "title title title title"
+    " pjs pjs pjs pjs "
+    " pjs pjs pjs pjs"
+    " pjs pjs pjs pjs"
+    " pjs pjs pjs pjs"
+    "ft ft ft ft ";
+
+  }
+
+  .projectContainer {
+  grid-area: pjs;
+  display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      padding: 30px;
+      cursor:pointer;
+
+  }
+
+  .projects{
+    width: 250px;
+      height: 250px
+      display: inline-block;
+      border: 2px solid #333;
+      color: #000000;
+      padding: 30px;
+      margin: 10px;
+      justify-content: center;
+  }
+
+  .projects:hover {
+   opacity: 1;
+   background-color: hotpink;
+   
+
+ 
+  }
+
+
+  .footer {
+    grid-area: ft;
+    color: #333;
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+

@@ -42,6 +42,7 @@ a {
     color: #333;
     font-family: 'Roboto-light', sans-serif;
     font-size: 20px;
+    margin: 15px;
     
     
   }
@@ -62,8 +63,9 @@ a {
   
   .container {
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50px 200px 700px 50px;
+    grid-template-rows: 60px 200px 700px 60px;
     background-color: #f2f2f2;
       
     }
@@ -81,8 +83,8 @@ a {
 
      #myTopnav {
       text-align: right;
-      padding: 15px;
-      border-bottom: 1px solid #333; 
+      border-bottom: 1px solid #333;
+      padding: 5px; 
     }
 
 
@@ -106,38 +108,37 @@ a {
       background-color: #f2f2f2;
       display: flex;
       flex-flow: row wrap;
-      justify-content: space-around;
+      justify-content: center;
       padding: 30px;
-    
+      cursor:pointer;
+     
     }
 
-     .myprojects {
-      cursor:pointer;
+     #projects .myProjects {
+      width: 30%;
+      height: relative;
       display: inline-block;
       text-align:center;
       margin: 50px;
       border: 1px solid #333;
       border-radius: 25px;
-      width: 30%;
-      height: 220px;
       box-shadow: 0 0 16px 0 rgba(19, 25, 27, 0.4);
       color: #000000;
-      font-family: 'calibre-semibold-webfont', sans-serif;
-      font-size: 24px;
 
      }
 
-     .myprojects:hover {
+     .myProjects:hover {
         background-color: #333;
        }
      
 
 
-     .myprojects a {
+     .myProjects a {
       display: block;
       margin: 5px;
       padding:20px;
       color: #000000;
+      font-size: 28px;
 
      
      }
