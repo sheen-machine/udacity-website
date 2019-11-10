@@ -45,6 +45,16 @@
 
 }
 
+.topNav a:hover{
+  text-decoration:none; 
+  color: #D3D3D3;
+  font-family: 'Roboto-light', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  
+
+}
+
   h1 {
     color: #333;
     font-family: 'calibre-semibold-webfont', sans-serif;

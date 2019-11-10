@@ -1,0 +1,61 @@
+  
+@font-face {
+    font-family: Calibre;
+    src: url(../fonts/calibre-medium-webfont.eot);
+    src: url(../fonts/calibre-medium-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/calibre-medium-webfont.woff) format('woff'), url(../fonts/calibre-medium-webfont.ttf) format('truetype'), url(../fonts/calibre-medium-webfont.svg#Calibre) format('svg');
+    font-weight: 500;
+    font-style: normal
+  }
+  @font-face {
+    font-family: Calibre;
+    src: url(../fonts/calibre-regular-webfont.eot);
+    src: url(../fonts/calibre-regular-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/calibre-regular-webfont.woff) format('woff'), url(../fonts/calibre-regular-webfont.ttf) format('truetype'), url(../fonts/calibre-regular-webfont.svg#calibre_regularregular) format('svg');
+    font-weight: 400;
+    font-style: normal
+  }
+  @font-face {
+    font-family: Calibre;
+    src: url(../fonts/calibre-semibold-webfont.eot);
+    src: url(../fonts/calibre-semibold-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/calibre-semibold-webfont.woff) format('woff'), url(../fonts/calibre-semibold-webfont.ttf) format('truetype'), url(../fonts/calibre-semibold-webfont.svg#calibresemibold) format('svg');
+    font-weight: 800;
+    font-style: normal
+  }
+  
+.container {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .topNav { 
+    text-align: right;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+  
+  }
+  
+  .topNav a{
+    text-decoration:none; 
+    color: #333;
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    
+  }
+  
+  .topNav a:hover{
+    text-decoration:none; 
+    color: #D3D3D3;
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    
+  
+  }
+
+  #footer {
+    grid-area: ft;
+    color: #333;
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+  }
